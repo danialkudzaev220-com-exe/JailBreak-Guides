@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-4.0.0.slim.min.js" integrity="sha256-8DGpv13HIm+5iDNWw1XqxgFB4mj+yOKFNb+tHBZOowc=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -19,11 +20,11 @@
     </div>
 
     <div class="menu">
-        <a href="xbox" class="menu-link">Xbox Original</a>
-        <a href="xbox360" class="menu-link">Xbox 360</a>
-        <a href="ps1" class="menu-link">PlayStation 1</a>
-        <a href="ps2" class="menu-link">PlayStation 2</a>
-        <a href="ps3" class="menu-link">PlayStation 3</a>
+        <button id="xbox_btn" class="menu-link">Xbox Original</button>
+        <button id="xbox360_btn" class="menu-link">Xbox 360</button>
+        <button id="ps1_btn" class="menu-link">PlayStation 1</button>
+        <button id="ps2_btn" class="menu-link">PlayStation 2</button>
+        <button id="ps3_btn" class="menu-link">PlayStation 3</button>
     </div>
 
     <div id="xbox" class="card">
@@ -59,7 +60,8 @@
 
             <p>Сегодня Aladdin — это легенда бюджетного моддинга. Он не был первым или самым навороченным, но именно он сделал взлом Xbox по-настоящему доступным.</p>
         </div>
-        <button>Полный гайд по установке чипа Alladin</button>
+        <a>Полный гайд по установке чипа Alladin</a>
+
     </div>
 
     <div id="xbox360" class="card">
@@ -156,6 +158,6 @@
         </div>
     </div>
 </div>
-
+<script src="main.js"></script>
 </body>
 </html>
